@@ -1,6 +1,6 @@
 @startuml
 
-!define COLOR_DEFAULT_BACKGROUND #1895ff
+!define COLOR_SKY #1895ff
 !define COLOR_DEFAULT_TEXT #212529
 !define COLOR_COBALT #004c97
 !define COLOR_JADE #11a861
@@ -44,9 +44,9 @@ skinparam linetype ortho
 'skinparam Shadowing false
 
 skinparam activity {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
-  DiamondBackgroundColor COLOR_DEFAULT_BACKGROUND
+  DiamondBackgroundColor COLOR_SKY
   DiamondBorderColor COLOR_COBALT
 }
 
@@ -56,7 +56,7 @@ skinparam actor {
 }
 
 skinparam agent {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
@@ -66,30 +66,30 @@ skinparam arrow {
 }
 
 skinparam artifact {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
 skinparam biddable {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
 skinparam boundary {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
 skinparam card {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
 skinparam class {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
   FontStyle bold
-  HeaderBackgroundColor COLOR_DEFAULT_BACKGROUND
+  HeaderBackgroundColor COLOR_SKY
 }
 
 skinparam cloud {
@@ -103,38 +103,38 @@ skinparam collections {
 }
 
 skinparam component {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
   Style uml2  
 }
 
 skinparam control {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
 skinparam database {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
 skinparam designed {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
 skinparam domain {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
 skinparam entity {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
 skinparam file {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
@@ -149,12 +149,12 @@ skinparam frame {
 }
 
 skinparam interface {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
 skinparam object {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
   FontStyle bold
 }
@@ -176,12 +176,13 @@ skinparam package {
 }
 
 skinparam participant {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
+  FontColor COLOR_WHITE
 }
 
 skinparam queue {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
@@ -194,30 +195,30 @@ skinparam sequence {
   DividerBackgroundColor COLOR_WHITE
   DividerBorderColor COLOR_COBALT
   DividerFontStyle bold
-  GroupBackgroundColor COLOR_DEFAULT_BACKGROUND
+  GroupBackgroundColor COLOR_SKY
   GroupBodyBackgroundColor COLOR_WHITE
   GroupFontStyle bold
   GroupHeaderFontStyle bold
   LifeLineBackgroundColor COLOR_WHITE
   LifeLineBorderColor COLOR_VIOLET
   ReferenceBackgroundColor COLOR_WHITE
-  ReferenceHeaderBackgroundColor COLOR_DEFAULT_BACKGROUND
+  ReferenceHeaderBackgroundColor COLOR_SKY
 }
 
 skinparam stack {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
 skinparam state {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
   StartColor COLOR_COBALT
   EndColor COLOR_COBALT
 }
 
 skinparam storage {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
@@ -227,7 +228,7 @@ skinparam title {
 }
 
 skinparam usecase {
-  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BackgroundColor COLOR_SKY
   BorderColor COLOR_COBALT
 }
 
