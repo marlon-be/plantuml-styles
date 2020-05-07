@@ -1,0 +1,236 @@
+@startuml
+
+!define COLOR_DEFAULT_BACKGROUND #1895ff
+!define COLOR_DEFAULT_TEXT #212529
+!define COLOR_COBALT #004c97
+!define COLOR_JADE #11a861
+!define COLOR_VIOLET #755cac
+!define COLOR_RUBY #ff4136
+!define COLOR_TEAL #009eaf
+!define COLOR_BLACK #000000
+!define COLOR_SILVER #ebecec
+!define COLOR_WHITE #ffffff
+
+!define FONT_OPEN_SANS_MONO Open Sans Mono
+!define FONT_OPEN_SANS_CODE Open Sans Code
+!define FONT_OPEN_SANS_SANS Open Sans Sans
+
+skinparam backgroundcolor transparent
+
+skinparam defaultFontColor COLOR_DEFAULT_TEXT
+skinparam defaultFontName FONT_OPEN_SANS_MONO
+skinparam defaultFontSize 14
+skinParam defaultFontStyle plain
+
+skinparam dpi 90
+
+'Controls how lines are drawn in PlantUML
+'values: otho, polyline, splines (default)
+skinparam linetype ortho
+
+'Distance between elements (vertically, default: 30)
+'skinparam nodesep 30
+
+'Controls the padding surrounding text
+'skinparam padding 10
+
+'Distance between elements (horizontally, default: 30)
+'skinparam ranksep 30
+
+'Line below ensures all classes have the same width in UML class diagram
+'skinparam SameClassWidth true
+
+'Uncomment line below to disable shadows
+'skinparam Shadowing false
+
+skinparam activity {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+  DiamondBackgroundColor COLOR_DEFAULT_BACKGROUND
+  DiamondBorderColor COLOR_COBALT
+}
+
+skinparam actor {
+  BackgroundColor COLOR_WHITE
+  BorderColor COLOR_COBALT
+}
+
+skinparam agent {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam arrow {
+  Color COLOR_VIOLET
+  FontColor COLOR_DEFAULT_TEXT
+}
+
+skinparam artifact {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam biddable {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam boundary {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam card {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam class {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+  FontStyle bold
+  HeaderBackgroundColor COLOR_DEFAULT_BACKGROUND
+}
+
+skinparam cloud {
+  BackgroundColor COLOR_WHITE
+  BorderColor COLOR_COBALT
+}
+
+skinparam collections {
+  BackgroundColor COLOR_WHITE
+  BorderColor COLOR_COBALT
+}
+
+skinparam component {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+  Style uml2  
+}
+
+skinparam control {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam database {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam designed {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam domain {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam entity {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam file {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam folder {
+  BackgroundColor COLOR_WHITE
+  BorderColor COLOR_COBALT
+}
+
+skinparam frame {
+  BackgroundColor COLOR_WHITE
+  BorderColor COLOR_COBALT
+}
+
+skinparam interface {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam object {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+  FontStyle bold
+}
+
+skinparam node {
+  BackgroundColor COLOR_WHITE
+  BorderColor COLOR_COBALT
+}
+
+skinparam note {
+  BackgroundColor COLOR_SILVER
+  BorderColor COLOR_BLACK
+  FontName FONT_OPEN_SANS_SANS
+}
+
+skinparam package {
+  BackgroundColor COLOR_WHITE
+  BorderColor COLOR_COBALT
+}
+
+skinparam participant {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam queue {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam rectangle {
+  BackgroundColor COLOR_WHITE
+  BorderColor COLOR_COBALT
+}
+
+skinparam sequence {
+  DividerBackgroundColor COLOR_WHITE
+  DividerBorderColor COLOR_COBALT
+  DividerFontStyle bold
+  GroupBackgroundColor COLOR_DEFAULT_BACKGROUND
+  GroupBodyBackgroundColor COLOR_WHITE
+  GroupFontStyle bold
+  GroupHeaderFontStyle bold
+  LifeLineBackgroundColor COLOR_WHITE
+  LifeLineBorderColor COLOR_VIOLET
+  ReferenceBackgroundColor COLOR_WHITE
+  ReferenceHeaderBackgroundColor COLOR_DEFAULT_BACKGROUND
+}
+
+skinparam stack {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam state {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+  StartColor COLOR_COBALT
+  EndColor COLOR_COBALT
+}
+
+skinparam storage {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+skinparam title {
+  FontName FONT_OPEN_SANS_SANS
+  FontSize 16
+}
+
+skinparam usecase {
+  BackgroundColor COLOR_DEFAULT_BACKGROUND
+  BorderColor COLOR_COBALT
+}
+
+
+
+@enduml
